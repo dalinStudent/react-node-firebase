@@ -1,0 +1,47 @@
+.header {
+    width: auto;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #e1216b;
+    padding: 0 10%;
+    overflow: hidden;
+}
+
+.logo {
+    font-size: 1.5rem;
+    color: white;
+    font-weight: bold;
+}
+
+.header ul {
+    list-style-type: none;
+    background-color: #e1216b;
+    display: flex;
+}
+
+.header li {
+    margin-left: 2rem;
+}
+
+.header a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+.header a:hover,
+.header a:active,
+.header a.active {
+    color: aliceblue;
+}
+
+.badge {
+    background-color: #cc2062;
+    color: white;
+    border-radius: 12px;
+    padding: 0 1rem;
+    margin-left: 0.5rem;
+}
